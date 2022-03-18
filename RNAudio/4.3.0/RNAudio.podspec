@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform       = :ios, '9.0'
   s.preserve_paths = '*.js'
   s.frameworks     = 'AVFoundation'
-
+  s.dependency     = 'React'
   s.source_files = 'ios/AudioRecorderManager.{h,m}'
 end
 
